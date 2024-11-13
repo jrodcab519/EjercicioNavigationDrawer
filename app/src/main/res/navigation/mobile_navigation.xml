@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ejercicionavigationdrawer.Fragmentos.HomeFragment"
+        android:label="HOME"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_asir"
+        android:name="com.example.ejercicionavigationdrawer.Fragmentos.ASIRFragment"
+        android:label="ASIR"
+        tools:layout="@layout/fragment_asir" />
+
+    <fragment
+        android:id="@+id/nav_daw"
+        android:name="com.example.ejercicionavigationdrawer.Fragmentos.DAWFragment"
+        android:label="DAW"
+        tools:layout="@layout/fragment_daw" />
+
+    <fragment
+        android:id="@+id/nav_dam"
+        android:name="com.example.ejercicionavigationdrawer.Fragmentos.DAMFragment"
+        android:label="DAM"
+        tools:layout="@layout/fragment_dam" />
+
+    <fragment
+        android:id="@+id/nav_acerca"
+        android:name="com.example.ejercicionavigationdrawer.Fragmentos.AcercaFragment"
+        android:label="Acerca de"
+        tools:layout="@layout/fragment_acerca" />
+</navigation>
